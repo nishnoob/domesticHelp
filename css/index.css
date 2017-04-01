@@ -1,0 +1,33 @@
+body{
+	background: url('../header.jpg') center / cover;
+}
+.head-plank{
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.6); 
+	color: white;
+	font-size: 20px;
+	padding-top: 20px;
+}
+.navtext{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.navtext:hover{
+	color: grey;
+	text-decoration: none;
+}
+.btn-lg{
+	width:130px;
+}
+.btn-lg:hover{
+	background-color: #D98880;
+	color: black;
+}
+.selected{
+	color: #C70039;
+}
+.btn-group{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
