@@ -13,7 +13,7 @@ body{
 	text-decoration: none;
 }
 .navtext:hover{
-	color: grey;
+	color: #D98880;
 	text-decoration: none;
 }
 .btn-lg{
@@ -30,4 +30,12 @@ body{
 	margin-top: 50px;
 	display: flex;
 	justify-content: center;
+}
+.jumb{
+	margin-top: 50px;
+	width: 90%;
+}
+.jumbotron{
+	min-height: 400px;
+	background-color: rgba(0, 0, 0, 0.6);
 }
