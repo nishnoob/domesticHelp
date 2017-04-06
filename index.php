@@ -32,7 +32,37 @@
     </div>
     <div class="container jumb">
       <div class="jumbotron">
-        
+      
+        <?php
+          $servername = "localhost";
+          $username = "root";
+          $password = "pass";
+          $dbname = "mine";
+
+          // Create connection
+          $conn = new mysqli($servername, $username, $password, $dbname);
+
+          // Check connection
+          if ($conn->connect_error) {
+              die("Connection failed: " . $conn->connect_error);
+          }
+          else
+            echo "Connected successfully";
+
+          $sql = "SELECT * from domHelp";
+          $result = $conn->query($sql);
+
+          if ($result->num_rows > 0) {
+              // output data of each row
+              while($row = $result->fetch_assoc()) {
+                  echo "id: " . $row["dhID"]. " - Name: " . $row["firstName"]. " " . $row["lastName"]. "<br>";
+              }
+          } else {
+              echo "0 results";
+          }
+          $conn->close();
+        ?>
+
       </div>
     </div>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
