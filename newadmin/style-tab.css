@@ -1,0 +1,89 @@
+body{
+  background: url('../header.jpg') center / cover;
+}
+  table.t1 {
+    color:white;
+	margin: 5em auto;
+    border-color: rgba(3,3,3,0.2);
+	border-collapse: collapse;
+    font-family:sans-serif;
+	background:rgba(1,1,1,0.8);
+  }
+  .t1 td {
+    padding: 15px 10px;
+  }
+  .t1 tr {
+    margin:10px auto;
+    border: 1px solid #111111;
+	border-radius:10px;
+    
+  }
+ <!-- input.button {
+  border-color:rgba(1,1,1,0.9);
+  border-radius: 5px;
+  background: white;
+  color   :black;
+  
+}
+    input.button:hover,
+  button:focus {
+  border-radius: 5px;
+  background: white;
+  color   : red;
+  border-color:red;
+}-->
+input:required:valid,{ /* when a field is considered valid by the browser */
+    background: #fff url(images/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+  input.button {
+     
+    
+      
+     background-color:rgba(0,0,0,0.2);
+     border-radius:6px;
+     border:1px solid #FFFFFF;
+     display:inline-block;
+     color:#ffffff;
+     font-family:arial;
+     font-size:14px;
+     font-weight:bold;
+     padding:5px 14px;
+}
+.button:hover {
+     
+     color:red;	
+     background-color:#FFFFFF;
+	 border-color: red;
+	 
+	  
+     border-radius:6px;
+     border:1px solid #FFFFFF;
+     display:inline-block;
+     
+     font-family:arial;
+     font-size:14px;
+     font-weight:bold;
+     padding:5px 14px;
+}
+ .button:active {
+   position:relative;
+   top:1px;
+}
+
+ input {
+    padding: 6px;
+    font-size: 13px;
+    border: 1px solid #d5d5d5;
+    color: #333;
+    border-radius: 4px 4px 4px 4px !important;
+ }
+ input:hover {
+    padding: 6px;
+    font-size: 13px;
+    border: 1px solid blue;
+    color: #333;
+    
+ }

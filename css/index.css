@@ -23,8 +23,9 @@ body{
 	background-color: #D98880;
 	color: black;
 }
-.selected{
+#tselected{
 	color: #C70039;
+	background-color: #B3B6B7; 
 }
 .btn-group{
 	margin-top: 50px;
@@ -34,8 +35,29 @@ body{
 .jumb{
 	margin-top: 50px;
 	width: 90%;
+	font-size: 20px;
 }
 .jumbotron{
 	min-height: 400px;
 	background-color: rgba(0, 0, 0, 0.6);
+	padding: 50px;
+}
+.ctshort{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	width: 165px;
+}
+.ctiles{
+	max-width: 200px;
+	max-height: 220px;
+	padding: 10px;
+	margin: 10px;
+}
+.card-img{
+	width: 150px;
+	height: 150px;
+}
+.w-100{
+	padding: 30px;
 }
